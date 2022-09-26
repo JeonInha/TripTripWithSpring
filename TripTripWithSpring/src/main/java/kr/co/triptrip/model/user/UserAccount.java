@@ -1,4 +1,4 @@
-package kr.co.triptrip.user;
+package kr.co.triptrip.model.user;
 
 public class UserAccount {
 	private String id;

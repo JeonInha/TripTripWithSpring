@@ -15,27 +15,33 @@
 		<org.slf4j-version>1.6.6</org.slf4j-version>
 	</properties>
 	<dependencies>
-	
-	
-	
-	
-	
+
+
+		<!-- sql과 톰캣 -->
 		<!-- https://mvnrepository.com/artifact/mysql/mysql-connector-java -->
 		<dependency>
 			<groupId>mysql</groupId>
 			<artifactId>mysql-connector-java</artifactId>
 			<version>8.0.30</version>
 		</dependency>
-		
-		<!-- https://mvnrepository.com/artifact/org.apache.tomcat/tomcat-jdbc -->
+
+		<!-- https://mvnrepository.com/artifact/org.apache.tomcat/tomcat -jdbc -->
 		<dependency>
 			<groupId>org.apache.tomcat</groupId>
 			<artifactId>tomcat-jdbc</artifactId>
 			<version>9.0.65</version>
 		</dependency>
-	
-	
-	
+
+
+		<!-- https://mvnrepository.com/artifact/cglib/cglib -->
+		<!-- 얘 뭐냐 ...? -->
+		<dependency>
+			<groupId>cglib</groupId>
+			<artifactId>cglib</artifactId>
+			<version>3.3.0</version>
+		</dependency>
+
+
 		<!-- Spring -->
 		<dependency>
 			<groupId>org.springframework</groupId>
@@ -73,9 +79,9 @@
 			<artifactId>spring-jdbc</artifactId>
 			<version>5.3.23</version>
 		</dependency>
-		
-		
-		
+
+
+
 
 		<!-- AspectJ -->
 		<dependency>
