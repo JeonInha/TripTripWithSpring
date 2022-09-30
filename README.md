@@ -4,7 +4,7 @@
 ### 1. 프로젝트 정보
   
   - 사용기술
-    - JAVA 8, JSP, Spring frameWork, Maven, MySQL
+    - JAVA 8, JavaScript, JSP, Spring frameWork, Maven, MySQL
     - KAKAO MAPS API, LOCAL API: 장소 정보를 시각화하여 유저에게 정보를 제공하기 위해 사용
 
   - 프로그램 기능
@@ -33,7 +33,7 @@
 
 - KAKAO 오픈 API 사용
   - 여행 경로에 대한 정보를 제공하는 바, 이것을 지도 위에서 시각화해야 할 필요성을 느껴 외부 오픈소스 API를 찾았다. 네이버, 구글, T맵, 카카오, 이 네 회사의 API를 후보군으로 올렸으며 사용의 용이함과 가격부담이 없음, 제공하는 기능의 다양함을 이유로 KAKAO API를 사용하기로 결정하였다.
-  - JAVA와 JavaScript 사이의 데이터교환이 필요하였다. 필요한 데이터를 JSON형태로 다루기로 하였다. 요청(Request) 객체에 데이터를 String 형식으로 담고, JavaScript에서 받아와 파싱하여 사용하였다.
+  - KAKAO API는 JavaScript를 기반으로 제작되어 있어 JAVA와 JavaScript 사이의 데이터교환이 필요하였다. 필요한 데이터를 JSON형태로 다루기로 하였다. 요청(Request) 객체에 데이터를 String 형식으로 담고, JavaScript에서 받아와 파싱하여 사용하였다.
   
 - Git을 통한 형상관리
   - JSP/Servlet만으로 제작하였던 팀프로젝트 당시 형상 관리와 팀원 간의 원활한 코드 공유를 위해 형상관리 툴을 사용하기로 결정하였다. 이클립스 플러그인을 통하여 git을 연동하여 사용하였다.
