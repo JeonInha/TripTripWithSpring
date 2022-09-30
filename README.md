@@ -56,6 +56,10 @@
     - 1. pom.xml 파일을 열고 Maven, JAVA, Spring Framework, aspectj, slf4j의 버전이 적합한지 확인한다.
     - 2. Build path의 Libraies를 확인한다. unbound 오류가 있는지 확인하고 수정한다.
     - 3. 라이브러리 jar 파일들이 저장되어있는 repository 폴더를 지우고 다시 다운받는다. 
+    
+- DB 구조
+  - 게시글에 장소, 글, 장소들을 유기적으로 연결하여 만든 여행코스 등 복합적인 정보가 내장되어 있다. 이를 관계형 데이터베이스를 통해 세분화하였다. DB 구조는 다음과 같다.
+  ![캡쳐1](https://user-images.githubusercontent.com/104603885/193205513-f7ca43ba-320d-404c-a296-b9198e99a244.PNG)
 
 ***
 
